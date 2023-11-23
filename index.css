@@ -1,0 +1,126 @@
+.chobi{
+  background: url('./images/why.png');
+  background-repeat: no-repeat;
+  background-position-x: -50px;
+}
+
+.bg-purple-gradient {
+  background: rgb(109, 106, 254);
+  background: linear-gradient(
+    180deg,
+    rgba(109, 106, 254, 1) 0%,
+    rgba(210, 118, 230, 1) 100%
+  );
+}
+/* .bg-purple-gradient:hover {
+  background: white;
+  color: #9260f3;
+  
+} */
+.custom-rounded {
+  border-radius: 10px;
+}
+.nav-mx {
+  margin: 5%;
+}
+.nav-menu-items {
+  font-weight: bold;
+  color: black;
+}
+.nav-menu-items:hover,
+.nav-menu-items-active:hover {
+  text-decoration: underline;
+  color: black;
+  text-decoration-color: #9260f3;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+.nav-menu-items-active {
+  text-decoration: underline;
+  text-decoration-color: #9260f3;
+  color: #9260f3;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  font-weight: bold;
+}
+.pointer {
+  cursor: pointer;
+}
+.bg-banner-text {
+  background-color: #9260f3;
+  color: white;
+}
+/* TODO: Fancy Font */
+.fancy-font {
+  font-family: "Times New Roman", Times, serif;
+}
+.z-index-plus {
+  z-index: 2;
+}
+.z-index-minus {
+  z-index: -2;
+}
+.grid {
+  display: grid;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+.bb {
+  border: 2px solid #9260f3;
+  width: 40%;
+  padding: 3px;
+}
+.fancy-nav {
+  background: rgb(254, 196, 237);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 196, 237, 1) 0%,
+    rgba(202, 173, 248, 1) 100%
+  );
+}
+
+.full-rounded {
+  border-radius: 50%;
+}
+.bg-contact {
+  background-color: #f2deff;
+}
+.custom-rounded-contact {
+  border-radius: 50px 50px 50px 0px;
+}
+.custom-rounded-about {
+  border-radius: 50px 0px 0px 50px;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.positioning{
+  position: absolute;
+  top:400px;
+  left:430px;
+}
+.orders:hover{
+
+  background: #9260f3;
+
+}
+.positioning a:hover{
+color: black;
+}
+.positioning a{
+  color: white;
+}
+
+
+
+
+
